@@ -1,5 +1,5 @@
 .hero{
-    height: 474px;
+    // height: 474px;
     margin-top: 59px;
     display: grid;
     grid-template-columns: 3fr 2fr;
@@ -36,6 +36,11 @@
 
 
 @media (max-width:990px) {
+    .hero{
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width:600px) {
     .hero{
         grid-template-columns: 1fr;
     }

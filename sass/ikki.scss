@@ -1,0 +1,56 @@
+.ikki{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 35px;
+    margin-bottom: 100px;
+    &__item{
+        padding: 10px;
+    }
+    &__image{
+        img{
+            width: 590px;
+            height: 387px;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    &__body{
+        margin-top: 20px;
+    }
+    &__sub-title{
+        font-size: 10px;
+        text-transform: uppercase;
+        color: #666;
+        margin-bottom: 18px;
+    }
+    &__title{
+        font-size: 24px;
+        font-weight: 200;
+        font-family: "Tenor";
+        margin-bottom: 15px;
+    }
+    &__link{
+        font-weight: 600;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+} 
+
+
+
+
+@media (max-width:990px) {
+    .ikki{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+
+
+@media (max-width:600px) {
+    .ikki{
+        grid-template-columns: 1fr;
+    }
+    
+}
